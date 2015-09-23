@@ -11,12 +11,12 @@
 </div>
 <div ng-controller="IndexController">
     <button ng-click="getProject()">We need a project!</button>
-    <h1>{{project.compName}}</h1>
-    <h2>{{project.projName}}</h2>
+    <h1>{{companyName}}</h1>
+    <h2>{{projectName}}</h2>
     <ul>
-        <li>Front End: {{project.scrum.front}}</li>
-        <li>Client Logistics: {{project.scrum.client}}</li>
-        <li>Server Logistics: {{project.scrum.server}}</li>
+        <li>Front End: {{frontScrum}}</li>
+        <li>Client Logistics: {{clientScrum}}</li>
+        <li>Server Logistics: {{serverScrum}}</li>
     </ul>
     <button ng-click="hire()">We need a team!</button>
     <!--<p ng-show="cat.name">Your new cats name is: {{ cat.name }}</p>-->
